@@ -1,0 +1,70 @@
+.truck {
+    width: 20vw;
+}
+
+@media (max-width: 1350px) {
+    .truck {
+        width: 40vw;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tamanhoIcon{
+    font-size: 1.6rem;
+    color: beige;
+}
+
+.user {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    width: 80px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+
+.user:hover {
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: black;
+}
+
+.anim{
+    transition: 0.2s  ease-in-out;
+    cursor: pointer;
+}
+
+.anim:hover{
+    transform: scale(1.1);
+}
+
+.close{
+    color: white;
+    background-color: rgb(70, 68, 68);
+}
+
+
+.aa:focus {
+    outline-color: #1dd80c; /* Muda a cor do contorno para vermelho quando o input está focado */
+}
+
+.aa {
+   display: none;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    display: block;
+}
