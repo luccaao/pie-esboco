@@ -23,10 +23,10 @@
 .user {
     font-size: 30px;
     text-align: center;
-    margin-left: 20px;
+    
     width: 80px;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: 0.3s;
     border-radius: 30px;
 }
